@@ -1,0 +1,66 @@
+/* src/components/LoginPage.css */
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Makes the page take the full viewport height */
+
+  background-image: url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9naW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 1; /* Takes up 50% of the available space */
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-box {
+  align-items: center;
+  height: 80%;
+  flex: 1; /* Takes up 50% of the available space */
+  padding: 90px;
+  background-color: rgba(0, 0, 0, 0.3); ; /* Add your desired background color */
+  border-radius: 5px;
+}
+
+.login-box form {
+  align-items: center;
+  max-width:300px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box button[type="submit"] {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
